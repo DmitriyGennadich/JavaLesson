@@ -1,4 +1,4 @@
-//  import java.util.Scanner;
+// import java.util.Scanner;
 
 public class Dz_1 {
     
@@ -71,6 +71,34 @@ public class Dz_1 {
         } else {
             System.out.println("Число отрицательное!");
         }
+    }
+    */
+
+    // 4 Написать метод, которому в качестве параметра передается целое число. 
+    // Метод должен вернуть true, если число отрицательное, и вернуть false если положительное.
+   /* 
+    public static void main(String[] args) {
+        System.out.println(checkNegative(3) + "\n");
+    }
+    public static boolean checkNegative(int a){
+        return a < 0;
+    }
+    */
+
+
+    // 5 Написать метод, которому в качестве аргументов передается строка и число,
+    // метод должен отпечатать в консоль указанную строку, указанное количество раз;
+    
+    /*
+    public static void main(String[] args) {
+        toString("Qwerty", 3);
+    }
+    
+    public static void toString(String str, int n){
+        for (int i = 1; i <= n; i++){
+            System.out.println( i + ") " + str);
+        }
+    
     }
     */
 }
